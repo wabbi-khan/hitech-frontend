@@ -841,24 +841,6 @@ function Sidenav(props) {
 								button
 								className={classes.menuItem}
 								onClick={() => {
-									history.push("/marketing_dashboard/contract_review");
-								}}
-							>
-								<ListItemText inset primary="Contract Review..." />
-							</ListItem>
-							<ListItem
-								button
-								className={classes.menuItem}
-								onClick={() => {
-									history.push("/marketing_dashboard/sales_contract");
-								}}
-							>
-								<ListItemText inset primary="Sales Contract" />
-							</ListItem>
-							<ListItem
-								button
-								className={classes.menuItem}
-								onClick={() => {
 									history.push("/marketing_dashboard/order_booking_form");
 								}}
 							>
@@ -873,6 +855,43 @@ function Sidenav(props) {
 							>
 								<ListItemText inset primary="Order Log Sheet" />
 							</ListItem>
+							<ListItem
+								button
+								className={classes.menuItem}
+								onClick={() => {
+									history.push("/marketing_dashboard/sales_contract");
+								}}
+							>
+								<ListItemText inset primary="Sales Contract" />
+							</ListItem>
+							<ListItem
+								button
+								className={classes.menuItem}
+								onClick={() => {
+									history.push("/marketing_dashboard/contract_review");
+								}}
+							>
+								<ListItemText inset primary="Contract Review..." />
+							</ListItem>
+
+							{/* <ListItem
+								button
+								className={classes.menuItem}
+								onClick={() => {
+									history.push("/marketing_dashboard/order_booking_form");
+								}}
+							>
+								<ListItemText inset primary="Order Booking Form" />
+							</ListItem> */}
+							{/* <ListItem
+								button
+								className={classes.menuItem}
+								onClick={() => {
+									history.push("/marketing_dashboard/order_log_sheet");
+								}}
+							>
+								<ListItemText inset primary="Order Log Sheet" />
+							</ListItem> */}
 							{/* <ListItem
 								button
 								className={classes.menuItem}
@@ -882,15 +901,7 @@ function Sidenav(props) {
 							>
 								<ListItemText inset primary="Delivery Order" />
 							</ListItem> */}
-							<ListItem
-								button
-								className={classes.menuItem}
-								onClick={() => {
-									history.push("/marketing_dashboard/customer_feedback");
-								}}
-							>
-								<ListItemText inset primary="Customer Feedback.." />
-							</ListItem>
+
 							<ListItem
 								button
 								className={classes.menuItem}
@@ -899,6 +910,15 @@ function Sidenav(props) {
 								}}
 							>
 								<ListItemText inset primary="Customer Complaint.." />
+							</ListItem>
+							<ListItem
+								button
+								className={classes.menuItem}
+								onClick={() => {
+									history.push("/marketing_dashboard/customer_feedback");
+								}}
+							>
+								<ListItemText inset primary="Customer Feedback.." />
 							</ListItem>
 						</List>
 					</Collapse>
