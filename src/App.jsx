@@ -134,10 +134,10 @@ import PrintInwardApproval from "./dashboard/store/inwards/PrintInwardApproval";
 import ItemOutwards from "./dashboard/store/outwards/ItemOutwards";
 import DailyInwardReports from "./dashboard/store/inwards/DailyInwardReports";
 
-import NotAvailablePage from "./NotAvailablePage";
+// import NotAvailablePage from "./NotAvailablePage";
 import PrintStockAssesment from "./dashboard/store/stock assessment report/PrintStockAssesment";
 import AddAccounts from "./dashboard/Accounts/Finance/create-accounts/AddAccounts";
-import AccountHistory from "./dashboard/Accounts/Finance/ledger/Ledger";
+// import AccountHistory from "./dashboard/Accounts/Finance/ledger/Ledger";
 import Ledger from "./dashboard/Accounts/Finance/ledger/Ledger";
 import PrintLedger from "./dashboard/Accounts/Finance/ledger/PrintLedger";
 import Entries from "./dashboard/Accounts/Finance/entries/Entries";
